@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[2]:
+# In[4]:
 
 
 import os
@@ -16,19 +16,20 @@ exclude_words = [
     r'^SN:\s?[A-Z0-9]{4,20}$', 'password',
 ]
 
-# Find item keys:
+# Find item keys: (Include Playstation? PS4? Onsite?)
 items = [
     'iphone', 'samsung', 'lg', 'asus', 'acer',
     'dell', 'hp', 'macbook', 'epik', 'moto',
     'ipad', 'galaxy', 'lenov', 'imac', 'sony', 
     'google', 'mac', 'xbox', 'kindle', 'core innovation',
-    'gateway', 'ipod', '^onn$', 'toshiba', 'metropcs', 
-    'nexus', 'alcatel', 'fujitsu', 'apple watch', 'iwatch', 
-    'michael kors', 'amazon', 'msi', 'oneplus', 'alienware', 
-    'huawei', 'nextbook', 'microsoft', 'kazuna', 'seagate', 
-    'tmobile', 'visual land', 'idroid', 'nokia', '^blu$', 
-    'envizen', 'notebook', 'rca', 'ps5', 'steam valve', 
-    'tablet', 'laptop', 'desktop', 'earbuds', '^custom$',
+    'gateway', 'ipod', 'toshiba', 'metropcs', 'nexus',
+    'alcatel', 'fujitsu', 'watch', 'michael kors', 'amazon',
+    'msi', 'oneplus', 'alienware', 'huawei', 'microsoft', 
+    'kazuna', 'seagate', r't-?mobile', 'droid', 'nokia', 
+    'notebook', 'rca', 'ps5', 'ps4', 'steam', 
+    'tablet', 'laptop', 'desktop', 'earbuds', 'system',
+    'onsite', 'playstation', 'pc', 'computer', 'phone',
+    'razer'
 ]
 
 # Find service keys:
@@ -39,13 +40,12 @@ services = [
     'clean', 'transfer', 'unlock', 'set', 'enable', 
     'check', 'reattach', 'solution', 'customize', 'make',
     'swap', 'issue', 'boot', 'wont', 'screen',
-    'button', 'labor', 'service', 'void', 'courtesy', 
-    'refresh',
+    'button', 'labor', 'void', 'courtesy', 'refresh',
 ]
 
 service_keys = '|'.join(services)
 item_keys = '|'.join(items)
-item_keys = rf'^(?!.*\b(?:{service_keys})\b).*?(?:{item_keys})'
+# item_keys = rf'^(?!.*\b(?:{service_keys})\b).*?(?:{item_keys})'
 
 filter_out = exclude_words + items + services
 
@@ -64,7 +64,7 @@ def assign_data(df, file):
     date = null_date(date, timestamp)
 
     # Extract item(s) of concern based on keys in item key list
-    items = df.loc[df['Text'].str.contains(item_keys, case=False, na=False), 'Text']
+    items = df.loc[df['Text'].str.contains(item_keys, case=False, na=False, regex=True), 'Text']
 
     # Extract service(s) performed based on keys in service key list
     services = df.loc[df['Text'].str.contains(service_keys, case=False, na=False), 'Text']
@@ -203,10 +203,4 @@ def main():
     return assign_data(test, r'D:\INVOICE\P AARON JOHNSON.xls') # File info different from test info
 
 # o_df, m_df = main()
-
-
-# In[ ]:
-
-
-
 
