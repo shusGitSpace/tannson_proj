@@ -558,7 +558,7 @@ item_dict = {
     'NOT APPLICABLE': {
         'OTHER': [
             ('ONSITE SERVICE', re.compile(r'\bON\s*SITE\b')),
-            ('CUSTOM SYSTEM', re.compile(r'\bCUSTOM(?:IZE|IZED|ED)?\s*SYSTEM\b'))
+            ('CUSTOM SYSTEM', re.compile(r'\bCUSTOM(?:IZED|ED)?\b.*?\b(?:SYSTEM|PC|COMPUTER|LAPTOP)\b'))
         ]
     }, 
 }
@@ -577,11 +577,11 @@ exclude_words = [
 services_list = [
     # 1
     ('COVER REPLACEMENT OR REPAIR', re.compile(r"""
-    \b(?:REP[A-Z]{3,4}MENT|RE[A-Z]{3}CE(?:D)?|RE[A-Z]{3}R(?:ED)?)\b.*\b
-    (?:COVER|HOUSING|CASE)\b
+    \b(?:REP[A-Z]{3,4}MENT|RE[A-Z]{3}CE(?:D)?|RE[A-Z]{3}R(?:ED)?)\b.*?\b
+    (?:COVER|HOUSING|CASE|BACK\s*GLASS)\b
     |
-    \b(?:COVER|HOUSING|CASE)\b.*\b
-    (?:REP[A-Z]{3,4}MENT|RE[A-Z]{3}CE(?:D)?|RE[A-Z]{3}(?:ED)?)\b
+    \b(?:COVER|HOUSING|CASE|BACK\s*GLASS)\b.*?\b
+    (?:REP[A-Z]{3,4}MENT|RE[A-Z]{3}CE(?:D)?|RE[A-Z]{3}R(?:ED)?)\b
     """, re.VERBOSE)),
 
     # 2
@@ -590,25 +590,25 @@ services_list = [
     (?:SCREEN|TOUCH\s*SCREEN|DIGITIZE(?:R|D)?|LCD)\b
     |
     \b(?:SCREEN|TOUCH\s*SCREEN|DIGITIZE(?:R|D)?|LCD)\b.*?\b
-    (?:REP[A-Z]{3,4}MENT|RE[A-Z]{3}CE(?:D)?|RE[A-Z]{3}(?:ED)?|BROKEN)\b
+    (?:REP[A-Z]{3,4}MENT|RE[A-Z]{3}CE(?:D)?|RE[A-Z]{3}R(?:ED)?|BROKEN)\b
     """, re.VERBOSE)),
 
     # 3
     ('BATTERY REPLACEMENT OR REPAIR', re.compile(r"""
-    \b(?:REP[A-Z]{3,4}MENT|RE[A-Z]{3}CE(?:D)?|RE[A-Z]{3}R(?:ED)?)\b.*?\b
-    (?:BATTER(?:Y)?|POWER)\b
+    \b(?:REP[A-Z]{3,4}MENT|RE[A-Z]{3}CE(?:D)?|RE[A-Z]{3}R(?:ED)?|RESET)\b.*?\b
+    BATTER(?:Y)?\b
     |
-    \b(?:BATTER(?:Y)?|POWER)\b.*?\b
-    (?:REP[A-Z]{3,4}MENT|RE[A-Z]{3}CE(?:D)?|RE[A-Z]{3}(?:ED)?)\b
+    \bBATTER(?:Y)?\b.*?\b
+    (?:REP[A-Z]{3,4}MENT|RE[A-Z]{3}CE(?:D)?|RE[A-Z]{3}R(?:ED)?|RESET|ISSUE)\b
     """, re.VERBOSE)),
 
     # 4
     ('CHARGING PORT REPLACEMENT OR REPAIR', re.compile(r"""
-    \b(?:REP[A-Z]{3,4}MENT|RE[A-Z]{3}CE(?:D)?|RE[A-Z]{3}R(?:ED)?|CLEAN|ISSUE)\b.*?\b
-    CHARGING\s*PORT\b
+    \b(?:REP[A-Z]{3,4}MENT|RE[A-Z]{3}CE(?:D)?|RE[A-Z]{3}R(?:ED)?)\b.*?\b
+    CHAR(?:G)?ING\s*PORT\b
     |
-    \bCHARGING\s*PORT\b.*?\b
-    (?:REP[A-Z]{3,4}MENT|RE[A-Z]{3}CE(?:D)?|RE[A-Z]{3}(?:ED)?|CLEAN|ISSUE)\b
+    \bCHAR(?:G)?ING\s*PORT\b.*?\b
+    (?:REP[A-Z]{3,4}MENT|RE[A-Z]{3}CE(?:D)?|RE[A-Z]{3}R(?:ED)?|ISSUE)\b
     """, re.VERBOSE)),
 
     # 5
@@ -617,65 +617,90 @@ services_list = [
     BUTTON\b
     |
     \bBUTTON\b.*?\b
-    (?:REP[A-Z]{3,4}MENT|RE[A-Z]{3}CE(?:D)?|RE[A-Z]{3}(?:ED)?)\b
+    (?:REP[A-Z]{3,4}MENT|RE[A-Z]{3}CE(?:D)?|RE[A-Z]{3}R(?:ED)?|ISSUE)\b
     """, re.VERBOSE)),
 
     # 6
     ('HARDWARE REPLACEMENT OR REPAIR', re.compile(r"""
     \b(?:REP[A-Z]{3,4}MENT|RE[A-Z]{3}CE(?:D)?|RE[A-Z]{3}R(?:ED)?|FIX)\b.*?\b
-    (?:LOGIC\s*BOARD|MOTHER\s*BOARD|KEY\s*BOARD|HDMI|SPEAKER|CAMERA|HINGE|FAN|EARPIECE)\b
+    (?:LOGIC\s*BOARD|MOTHER\s*BOARD|KEY\s*BOARD|HDMI|SPEAKER|CAMERA|HINGE|FAN|EAR\s*PIECE)\b
     |
-    \b(?:LOGIC\s*BOARD|MOTHER\s*BOARD|KEY\s*BOARD|HDMI|SPEAKER|CAMERA|HINGE|FAN|EARPIECE)\b
+    \b(?:LOGIC\s*BOARD|MOTHER\s*BOARD|KEY\s*BOARD|HDMI|SPEAKER|CAMERA|HINGE|FAN|EAR\s*PIECE)\b.*?\b
     (?:REP[A-Z]{3,4}MENT|RE[A-Z]{3}CE(?:D)?|RE[A-Z]{3}R(?:ED)?|ISSUE)
     """, re.VERBOSE)),
 
     # 7
-    ('SOFTWARE INSTALLATION', re.compile(r"""
-    \b(?:(?:RE)?INSTALL|RESTORE|RESET|UPGRADE)\b.*?\b
-    (?:PROGRAM(?:S)?|SYSTEM|ICLOUD|GOOGLE|(?:I)?OS|FACTORY|WINDOWS|MALWAREBYTES|PRINTER)\b
+    ('HARDWARE INSPECTION OR CLEANING', re.compile(r"""
+    \b(?:CLEAN|INSPECT|CHECK)\b.*?\b
+    (?:KEY\s*BOARD|FAN|HEATING\sVENT|MICROPHONE|EAR\s*PIECE|CAMERA|POWER\s*BUTTON|CHARGING\s*PORT)\b
     |
-    \b(?:PROGRAM(?:S)?|SYSTEM|ICLOUD|GOOGLE|(?:I)OS|FACTORY|WINDOWS|MALWAREBYTES|PRINTER)\b.*\b
-    (?:(?:RE)?INSTALL|RESTORE|RESET|UPGRADE)\b
-    \b
+    \b(?:KEY\s*BOARD|FAN|HEATING\s*VENT|MICROPHONE|EAR\s*PIECE|CAMERA|POWER\s*BUTTON|CHARGING\s*PORT)\b.*?\b
+    (?:CLEAN\s*UP|INSPECTION|CHECK)
     """, re.VERBOSE)),
 
     # 8
-    ('SOFTWARE UNINSTALLATION', re.compile(r"""
-    \b(?:REMOVE)\b.*?\b
-    (?:PROGRAM(?:S)?|ICLOUD|GOOGLE|FRP|ADWARE)\b
-    \b""", re.VERBOSE)),
+    ('SOFTWARE INSTALLATION', re.compile(r"""
+    \b(?:INSTALL|UPGRADE|UPDATE)\b.*?\b
+    (?:
+        PROGRAM(?:S)?|SOFTWARE
+        |WINDOWS|SYSTEM|(?:BI|I)?OS|ICLOUD|APP(?:S)?
+        |GOOGLE|CHROME|ADOBE|MS\s*(?:OFFICE|EDGE)?|MICROSOFT|FIREFOX
+        |FACTORY
+        |MALWAREBYTES
+        |ANTI(?:\-|\s*)?VIRUS
+        )\b
+    |
+    \b(?:
+        PROGRAM(?:S)?|SOFTWARE
+        |WINDOWS|SYSTEM|(?:BI|I)?OS|ICLOUD|APP(?:S)?
+        |GOOGLE|CHROME|ADOBE|MS\s*(?:OFFICE|EDGE)?|MICROSOFT|FIREFOX
+        |FACTORY
+        |MALWAREBYTES
+        |ANTI(?:\-|\s*)?VIRUS
+        )\b.*?\b
+    (?:INSTALL|UPGRADE|UPDATE)\b
+    """, re.VERBOSE)),
 
     # 9
-    ('SOFTWARE RESTORATION', re.compile(r"""
-    \b(?:RESTORE|RESET|REPAIR)\b.*?\b
-    (?:PROGRAM(?:S)?|SYSTEM|ICLOUD|GOOGLE|(?:BI|I)?OS|FACTORY|WINDOWS|MALWAREBYTES)\b
-    |
-    \b(?:PROGRAM(?:S)?|SYSTEM|ICLOUD|GOOGLE|(?:BI|I)OS|FACTORY|WINDOWS|MALWAREBYTES)\b.*\b
-    (?:RESTORE|RESET|REPAIR)\b
+    ('SOFTWARE UNINSTALLATION', re.compile(r"""
+    \bREMOVE\b.*?\b
+    (?:PROGRAM(?:S)?|ICLOUD|GOOGLE|FRP|ADWARE)\b
     """, re.VERBOSE)),
 
     # 10
-    ('DEVICE OR SERVICE UNLOCK', re.compile(r"""
-    \b(?:UNLOCK)\b.*?\b
-    (?:PHONE|DEVICE|SERVICE|NETWORK)\b
+    ('SOFTWARE RESTORATION', re.compile(r"""
+    \b(?:REINSTALL|RESTORE|RESET|REPAIR)\b.*?\b
+    (?:PROGRAM(?:S)?|SYSTEM|ICLOUD|GOOGLE|(?:BI|I)?OS|FACTORY|WINDOWS|MALWAREBYTES)\b
     |
-    \b(?:PHONE|DEVICE|SERVICE|NETWORK)\b.*\b
-    (?:UNLOCK)\b
+    \b(?:PROGRAM(?:S)?|SYSTEM|ICLOUD|GOOGLE|(?:BI|I)?OS|FACTORY|WINDOWS|MALWAREBYTES)\b.*?\b
+    (?:REINSTALL|RESTORE|RESET|REPAIR)\b
     """, re.VERBOSE)),
 
     # 11
-    ('MALWARE REMOVAL', re.compile(r"""
-    \b(?:REMOVE|CLEAN)\b.*?\b
-    (?:MALWARE|VIRUS)\b
+    ('DEVICE OR SERVICE UNLOCK', re.compile(r"""
+    \bUNLOCK\b.*?\b
+    (?:(?:I)?PHONE|DEVICE|SERVICE|NETWORK)\b
+    |
+    \b(?:(?:I)?PHONE|DEVICE|SERVICE|NETWORK)\b.*?\b
+    UNLOCK\b
     """, re.VERBOSE)),
 
     # 12
-    ('PERSONAL ACCOUNT SERVICE', re.compile(r"""
-    \b(?:RESET|REMOVE)\b.*?\b
-    (?:PASSWORD)\b
+    ('MALWARE REMOVAL', re.compile(r"""
+    \b(?:REMOVE|CLEAN)\b.*?\b
+    (?:MALWARE|VIRUS|ADWARE)\b
+    |
+    \b(?:MALWARE|VIRUS|ADWARE)\b.*?\b
+    (?:REMOVAL|CLEAN(?:\s*UP)?)\b
     """, re.VERBOSE)),
 
     # 13
+    ('PERSONAL ACCOUNT SERVICE', re.compile(r"""
+    \b(?:RESET|REMOVE|(?:RE)?CONFIGURE|CHECK|CLEAN)\b.*?\b
+    (?:PASSWORD|EMAIL|OUTLOOK|ACCOUNT|YAHOO|ZOOM)\b
+    """, re.VERBOSE)),
+
+    # 14
     ('DATA RECOVERY', re.compile(r"""
     \b(?:RECOVER)\b.*?\b
     (?:DATA|FILE(?:S)?)\b
@@ -684,7 +709,22 @@ services_list = [
     (?:RECOVER)\b
     """, re.VERBOSE)),
 
-    # 14
+    # 15
+    ('BOOTING SERVICE', re.compile(r"""
+    \b(?:WON(?:\')?T|CONSTANT)\b.*?\b
+    (?:TURN\s*ON|(?:RE)?BOOT(?:\s*UP)?|POWER\s*ON)\b
+    |
+    \b(?:TURN\s*ON|(?:RE)?BOOT(?:\s*UP)?|POWER\s*ON)\b.*?\b
+    (?:ERROR|ISSUE|PROBLEM)\b
+    """, re.VERBOSE)),
+
+    # 16
+    ('DEVICE OR SYSTEM INSPECTION', re.compile(r"""
+    \bCHECK\b.*?\b
+    (?:SYSTEM|DEVICE|WINDOWS)\b
+    """, re.VERBOSE)),
+
+    # 17
     ('DATA TRANSFER', re.compile(r"""
     \b(?:
         DATA
@@ -717,7 +757,8 @@ services_list = [
 exclude_words_2 = [
     r'\bPROTECTOR\b', r'\bLABOR\b', r'\bPAID\b', r'\bCOURTESY\b',
     r'\bVOID\b', r'\bNO\s*FIX\b', r'NOT\s*FIXABLE', r'\b(?:\()?DIAGNOSTIC\s*FEE(?:\))?\b',
-    r'NO\s*REPAIR', r'\bCUSTOMER\b', r'\bSCREEN\s*PROTECTOR\b'
+    r'\bNO\s*REPAIR\b', r'\bCUSTOMER\b', r'\bSCREEN\s*PROTECTOR\b', r'\bTANNSON\s*TECH\b',
+    r'\bWITHOUT\s*REPAIR(?:ING)?\b', r'\bWARRANTY\b', 
 ]
 
 
