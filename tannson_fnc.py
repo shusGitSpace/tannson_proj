@@ -45,7 +45,6 @@ services = [
 
 service_keys = '|'.join(services)
 item_keys = '|'.join(items)
-# item_keys = rf'^(?!.*\b(?:{service_keys})\b).*?(?:{item_keys})'
 
 filter_out = exclude_words + items + services
 
@@ -193,14 +192,14 @@ def main():
     main_df = pd.read_csv(r'C:\Users\shuju\Desktop\Tannson_Tech_Project\raw_data.csv', names=['Text', 'Quantity', 'Numeric'], skiprows=1)
     pd.set_option('display.max.rows', 5000)
 
-    # TEST FUNCTION:
+    # Test function
     main_df['Text'] = main_df['Text'].str.strip().str.upper() # Standardize raw data
     unique_text = pd.Series(main_df['Text'].unique()) # Extract unique instances
     test = unique_text[~unique_text.str.contains(conditions, case=False, na=False)] # Filter test
     print("Current length:", test.size)
 
-    test = main_df.iloc[17045:17058,] # 'D:\INVOICE\P GREGORY JEAN EXANTUS.xls'
-    return assign_data(test, r'D:\INVOICE\P AARON JOHNSON.xls') # File info different from test info
+    test = main_df.iloc[17045:17058] # Test function on one file 
+    return assign_data(test, r'C:\Users\shuju\Desktop\invoice_copy\JOHN_DOE_SAMPLE_INVOICE.xls') # Test timestamp w/ another file
 
 # o_df, m_df = main()
 

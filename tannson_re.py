@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
+# In[1]:
 
 
 import re
@@ -573,4 +573,156 @@ exclude_words = [
     r'\bNO\b', r'\bORDERED\b', r'\bGMAIL\b', r'\bCASH\b', r'\bCC\b', r'\bTEMPERED\b',
     r'\bCRASH\b'
 ]
+
+services_list = [
+    # 1
+    ('COVER REPLACEMENT OR REPAIR', re.compile(r"""
+    \b(?:REP[A-Z]{3,4}MENT|RE[A-Z]{3}CE(?:D)?|RE[A-Z]{3}R(?:ED)?)\b.*\b
+    (?:COVER|HOUSING|CASE)\b
+    |
+    \b(?:COVER|HOUSING|CASE)\b.*\b
+    (?:REP[A-Z]{3,4}MENT|RE[A-Z]{3}CE(?:D)?|RE[A-Z]{3}(?:ED)?)\b
+    """, re.VERBOSE)),
+
+    # 2
+    ('SCREEN REPLACEMENT OR REPAIR', re.compile(r"""
+    \b(?:REP[A-Z]{3,4}MENT|RE[A-Z]{3}CE(?:D)?|RE[A-Z]{3}R(?:ED)?|BROKEN|NO)\b.*?\b
+    (?:SCREEN|TOUCH\s*SCREEN|DIGITIZE(?:R|D)?|LCD)\b
+    |
+    \b(?:SCREEN|TOUCH\s*SCREEN|DIGITIZE(?:R|D)?|LCD)\b.*?\b
+    (?:REP[A-Z]{3,4}MENT|RE[A-Z]{3}CE(?:D)?|RE[A-Z]{3}(?:ED)?|BROKEN)\b
+    """, re.VERBOSE)),
+
+    # 3
+    ('BATTERY REPLACEMENT OR REPAIR', re.compile(r"""
+    \b(?:REP[A-Z]{3,4}MENT|RE[A-Z]{3}CE(?:D)?|RE[A-Z]{3}R(?:ED)?)\b.*?\b
+    (?:BATTER(?:Y)?|POWER)\b
+    |
+    \b(?:BATTER(?:Y)?|POWER)\b.*?\b
+    (?:REP[A-Z]{3,4}MENT|RE[A-Z]{3}CE(?:D)?|RE[A-Z]{3}(?:ED)?)\b
+    """, re.VERBOSE)),
+
+    # 4
+    ('CHARGING PORT REPLACEMENT OR REPAIR', re.compile(r"""
+    \b(?:REP[A-Z]{3,4}MENT|RE[A-Z]{3}CE(?:D)?|RE[A-Z]{3}R(?:ED)?|CLEAN|ISSUE)\b.*?\b
+    CHARGING\s*PORT\b
+    |
+    \bCHARGING\s*PORT\b.*?\b
+    (?:REP[A-Z]{3,4}MENT|RE[A-Z]{3}CE(?:D)?|RE[A-Z]{3}(?:ED)?|CLEAN|ISSUE)\b
+    """, re.VERBOSE)),
+
+    # 5
+    ('BUTTON REPLACEMENT OR REPAIR', re.compile(r"""
+    \b(?:REP[A-Z]{3,4}MENT|RE[A-Z]{3}CE(?:D)?|RE[A-Z]{3}R(?:ED)?|FIX)\b.*?\b
+    BUTTON\b
+    |
+    \bBUTTON\b.*?\b
+    (?:REP[A-Z]{3,4}MENT|RE[A-Z]{3}CE(?:D)?|RE[A-Z]{3}(?:ED)?)\b
+    """, re.VERBOSE)),
+
+    # 6
+    ('HARDWARE REPLACEMENT OR REPAIR', re.compile(r"""
+    \b(?:REP[A-Z]{3,4}MENT|RE[A-Z]{3}CE(?:D)?|RE[A-Z]{3}R(?:ED)?|FIX)\b.*?\b
+    (?:LOGIC\s*BOARD|MOTHER\s*BOARD|KEY\s*BOARD|HDMI|SPEAKER|CAMERA|HINGE|FAN|EARPIECE)\b
+    |
+    \b(?:LOGIC\s*BOARD|MOTHER\s*BOARD|KEY\s*BOARD|HDMI|SPEAKER|CAMERA|HINGE|FAN|EARPIECE)\b
+    (?:REP[A-Z]{3,4}MENT|RE[A-Z]{3}CE(?:D)?|RE[A-Z]{3}R(?:ED)?|ISSUE)
+    """, re.VERBOSE)),
+
+    # 7
+    ('SOFTWARE INSTALLATION', re.compile(r"""
+    \b(?:(?:RE)?INSTALL|RESTORE|RESET|UPGRADE)\b.*?\b
+    (?:PROGRAM(?:S)?|SYSTEM|ICLOUD|GOOGLE|(?:I)?OS|FACTORY|WINDOWS|MALWAREBYTES|PRINTER)\b
+    |
+    \b(?:PROGRAM(?:S)?|SYSTEM|ICLOUD|GOOGLE|(?:I)OS|FACTORY|WINDOWS|MALWAREBYTES|PRINTER)\b.*\b
+    (?:(?:RE)?INSTALL|RESTORE|RESET|UPGRADE)\b
+    \b
+    """, re.VERBOSE)),
+
+    # 8
+    ('SOFTWARE UNINSTALLATION', re.compile(r"""
+    \b(?:REMOVE)\b.*?\b
+    (?:PROGRAM(?:S)?|ICLOUD|GOOGLE|FRP|ADWARE)\b
+    \b""", re.VERBOSE)),
+
+    # 9
+    ('SOFTWARE RESTORATION', re.compile(r"""
+    \b(?:RESTORE|RESET|REPAIR)\b.*?\b
+    (?:PROGRAM(?:S)?|SYSTEM|ICLOUD|GOOGLE|(?:BI|I)?OS|FACTORY|WINDOWS|MALWAREBYTES)\b
+    |
+    \b(?:PROGRAM(?:S)?|SYSTEM|ICLOUD|GOOGLE|(?:BI|I)OS|FACTORY|WINDOWS|MALWAREBYTES)\b.*\b
+    (?:RESTORE|RESET|REPAIR)\b
+    """, re.VERBOSE)),
+
+    # 10
+    ('DEVICE OR SERVICE UNLOCK', re.compile(r"""
+    \b(?:UNLOCK)\b.*?\b
+    (?:PHONE|DEVICE|SERVICE|NETWORK)\b
+    |
+    \b(?:PHONE|DEVICE|SERVICE|NETWORK)\b.*\b
+    (?:UNLOCK)\b
+    """, re.VERBOSE)),
+
+    # 11
+    ('MALWARE REMOVAL', re.compile(r"""
+    \b(?:REMOVE|CLEAN)\b.*?\b
+    (?:MALWARE|VIRUS)\b
+    """, re.VERBOSE)),
+
+    # 12
+    ('PERSONAL ACCOUNT SERVICE', re.compile(r"""
+    \b(?:RESET|REMOVE)\b.*?\b
+    (?:PASSWORD)\b
+    """, re.VERBOSE)),
+
+    # 13
+    ('DATA RECOVERY', re.compile(r"""
+    \b(?:RECOVER)\b.*?\b
+    (?:DATA|FILE(?:S)?)\b
+    |
+    (?:DATA|FILE(?:S)?)\b.*?\b
+    (?:RECOVER)\b
+    """, re.VERBOSE)),
+
+    # 14
+    ('DATA TRANSFER', re.compile(r"""
+    \b(?:
+        DATA
+        |FILE(?:S)?
+        |INFO(?:RMATION)?
+        |CONTACT(?:S)?
+        |PHOTO(?:S)?
+        |PIC(?:TURE|TURES|S)?
+        |MUSIC
+        |MOVIE(?:S)?
+        |SONG(?:S)?
+        )\b.*?\b
+    TRANSFER\b
+    |
+    \bTRANSFER\b.*?\b
+    (?:
+        DATA
+        |FILE(?:S)?
+        |INFO(?:RMATION)?
+        |CONTACT(?:S)?
+        |PHOTO(?:S)?
+        |PIC(?:TURE|TURES|S)?
+        |MUSIC
+        |MOVIE(?:S)?
+        |SONG(?:S)?
+        )\b
+        """, re.VERBOSE)),
+]
+
+exclude_words_2 = [
+    r'\bPROTECTOR\b', r'\bLABOR\b', r'\bPAID\b', r'\bCOURTESY\b',
+    r'\bVOID\b', r'\bNO\s*FIX\b', r'NOT\s*FIXABLE', r'\b(?:\()?DIAGNOSTIC\s*FEE(?:\))?\b',
+    r'NO\s*REPAIR', r'\bCUSTOMER\b', r'\bSCREEN\s*PROTECTOR\b'
+]
+
+
+# In[ ]:
+
+
+
 
