@@ -120,7 +120,7 @@ def assign_data(df, file):
 
     # Capture any service not in service key words
     if not services:
-        services = 'OTHER'
+        services = 'UNMAPPED'
 
     # Return structured df
     o_details = pd.DataFrame([{

@@ -283,13 +283,13 @@
       "REFURBISHED IPHONE 12",
       "RETURN GOOGLE PIXEL 7 PRO"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":400.0
   },
   {
     "Date":"2025-05-03T00:00:00.000",
     "Item":"USED HP LAPTOP WITH CHARGER",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":150.0
   },
   {
@@ -888,7 +888,7 @@
   {
     "Date":"2018-01-17T00:00:00.000",
     "Item":"IPHONE 5 (2128)",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":55.0
   },
   {
@@ -1083,7 +1083,7 @@
   {
     "Date":"2018-11-01T00:00:00.000",
     "Item":"SAMSUNG S5 BATTERY",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":32.83
   },
   {
@@ -1105,7 +1105,7 @@
   {
     "Date":"2017-11-03T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":10.0
   },
   {
@@ -1184,7 +1184,7 @@
   {
     "Date":"2023-01-30T00:00:00.000",
     "Item":"IPHONE 12 REFURBISHED",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":495.0
   },
   {
@@ -1549,7 +1549,7 @@
   {
     "Date":"2025-09-30T00:00:00.000",
     "Item":"IPAD A2602",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":150.0
   },
   {
@@ -1610,7 +1610,7 @@
   {
     "Date":"2017-03-03T00:00:00.000",
     "Item":"HP PROBOOK 455 G1 (REFURBISHED LAPTOP)",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":210.0
   },
   {
@@ -1670,7 +1670,7 @@
   {
     "Date":"2015-10-03T00:00:00.000",
     "Item":"IPHONE 4",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":18.69
   },
   {
@@ -2053,7 +2053,7 @@
   {
     "Date":"2022-12-10T00:00:00.000",
     "Item":"IPAD 6",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":130.0
   },
   {
@@ -2168,7 +2168,7 @@
   {
     "Date":"2016-06-06T00:00:00.000",
     "Item":"SAMSUNG NOTE 5 BLUE",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":280.0
   },
   {
@@ -2205,7 +2205,7 @@
   {
     "Date":"2016-08-22T00:00:00.000",
     "Item":"IPHONE 5C",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":80.0
   },
   {
@@ -2355,7 +2355,7 @@
   {
     "Date":"2021-07-02T00:00:00.000",
     "Item":"IPHONE XS MAX (293399)",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":40.0
   },
   {
@@ -2423,7 +2423,7 @@
   {
     "Date":"2023-07-07T00:00:00.000",
     "Item":"IPHONE 8",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":210.0
   },
   {
@@ -2750,7 +2750,7 @@
   {
     "Date":"2015-12-14T00:00:00.000",
     "Item":"IPAD 2 16GB WIFI",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":168.22
   },
   {
@@ -2793,7 +2793,7 @@
   {
     "Date":"2020-08-18T00:00:00.000",
     "Item":"EARBUDS",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":35.0
   },
   {
@@ -2863,19 +2863,19 @@
       "VERIZON LG REVERE 3",
       "SAMSUNG S4 MORPHIE CHARGING PACK"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":70.0
   },
   {
     "Date":"2017-10-16T00:00:00.000",
     "Item":"SAMSUNG S4 BATTERY",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":30.0
   },
   {
     "Date":"2017-07-27T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":15.0
   },
   {
@@ -2909,7 +2909,7 @@
   {
     "Date":"2023-08-12T00:00:00.000",
     "Item":"IPAD MINI A1489",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":0.0
   },
   {
@@ -2940,7 +2940,7 @@
       "HP LAPTOP (KICKFLIP7)",
       "ERROR: DPC WATCHDOG VIOLATION"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":0.0
   },
   {
@@ -3235,7 +3235,7 @@
   {
     "Date":"2015-11-28T00:00:00.000",
     "Item":"IPHONE 5S",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":120.0
   },
   {
@@ -3394,7 +3394,7 @@
   {
     "Date":"2024-11-19T00:00:00.000",
     "Item":"MAC ID: 10868C380F6C",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":120.0
   },
   {
@@ -3430,7 +3430,7 @@
   {
     "Date":"2018-03-16T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":40.0
   },
   {
@@ -3456,7 +3456,7 @@
   {
     "Date":"2024-09-11T00:00:00.000",
     "Item":"SAMSUNG A136U",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":30.0
   },
   {
@@ -3480,7 +3480,7 @@
   {
     "Date":"2016-10-05T00:00:00.000",
     "Item":"IPHONE 6",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":70.0
   },
   {
@@ -3782,7 +3782,7 @@
   {
     "Date":"2025-02-04T00:00:00.000",
     "Item":"MACBOOK AIR",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":120.0
   },
   {
@@ -3928,7 +3928,7 @@
   {
     "Date":"2017-07-20T00:00:00.000",
     "Item":"IPHONE 6+",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":10.0
   },
   {
@@ -3943,7 +3943,7 @@
   {
     "Date":"2016-09-12T00:00:00.000",
     "Item":"IPAD MINI",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":110.0
   },
   {
@@ -4057,7 +4057,7 @@
   {
     "Date":"2021-02-15T00:00:00.000",
     "Item":"SAMSUNG A01 CORE",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":150.0
   },
   {
@@ -4117,7 +4117,7 @@
       "SAMSUNG A127DL (8859)",
       "NO MICROPHONE"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":90.0
   },
   {
@@ -4627,7 +4627,7 @@
       "HP ENVY X360 M CONVERTIBLE",
       "PRODID: 9HP23UA#ABA"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":250.0
   },
   {
@@ -4655,7 +4655,7 @@
   {
     "Date":"2025-01-13T00:00:00.000",
     "Item":"SAMSUNG S23 ULTRA (SM-S918U)",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":200.0
   },
   {
@@ -5066,7 +5066,7 @@
   {
     "Date":"2016-01-27T00:00:00.000",
     "Item":"ASUS XM551 CHARGER",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":35.0
   },
   {
@@ -5260,13 +5260,13 @@
       "DELL DESKTOP",
       "IPHONE 5C"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":30.0
   },
   {
     "Date":"2021-05-21T00:00:00.000",
     "Item":"IPHONE X (921777)",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":20.0
   },
   {
@@ -5549,7 +5549,7 @@
   {
     "Date":"2016-12-12T00:00:00.000",
     "Item":"IPHONE 5S",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":0.0
   },
   {
@@ -5652,7 +5652,7 @@
   {
     "Date":"2020-06-05T00:00:00.000",
     "Item":"SAMSUNG J3 EMERGE J327P",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":110.0
   },
   {
@@ -5943,7 +5943,7 @@
   {
     "Date":"2017-07-20T00:00:00.000",
     "Item":"LG V20 LG-H918",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":40.0
   },
   {
@@ -6351,7 +6351,7 @@
   {
     "Date":"2016-08-13T00:00:00.000",
     "Item":"LG TV COAXIAL CONNECTOR",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":100.0
   },
   {
@@ -6544,7 +6544,7 @@
   {
     "Date":"2020-08-14T00:00:00.000",
     "Item":"IPHONE 6",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":60.0
   },
   {
@@ -6726,7 +6726,7 @@
   {
     "Date":"2016-10-06T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":120.0
   },
   {
@@ -6798,7 +6798,7 @@
   {
     "Date":"2021-06-05T00:00:00.000",
     "Item":"SAMSUNG TYPE C CABLE",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":10.0
   },
   {
@@ -7319,7 +7319,7 @@
       "DESKTOP",
       "NOTEBOOK + SSD DRIVE"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":300.0
   },
   {
@@ -7376,7 +7376,7 @@
   {
     "Date":"2019-05-06T00:00:00.000",
     "Item":"PURCHASE SAMSUNG S8+ (REFURBISHED)",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":500.0
   },
   {
@@ -7500,7 +7500,7 @@
   {
     "Date":"2016-11-22T00:00:00.000",
     "Item":"IPHONE 5 BATTERY",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":50.0
   },
   {
@@ -7509,7 +7509,7 @@
       "MOTOROLA Z DROID XT1650 LCD BLACK",
       "MOTOROLA TEMPERED"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":335.0
   },
   {
@@ -7742,7 +7742,7 @@
   {
     "Date":"2021-05-22T00:00:00.000",
     "Item":"REFURBISHED HP ALL IN ONE",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":300.0
   },
   {
@@ -7982,7 +7982,7 @@
   {
     "Date":"2017-08-04T00:00:00.000",
     "Item":"SAMSUNG S6 WHITE VERIZON SM-G920V",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":40.0
   },
   {
@@ -8230,7 +8230,7 @@
       "REFURBISHED TOSHIBA",
       "WITH SAMSUNG SSD 500GB"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":275.0
   },
   {
@@ -8254,7 +8254,7 @@
   {
     "Date":"2023-07-01T00:00:00.000",
     "Item":"SAMSUNG S20 FE",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":85.0
   },
   {
@@ -8484,7 +8484,7 @@
   {
     "Date":"2015-11-24T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":100.0
   },
   {
@@ -8553,7 +8553,7 @@
   {
     "Date":"2024-07-02T00:00:00.000",
     "Item":"IPHONE SE (998527)",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":215.0
   },
   {
@@ -8671,7 +8671,7 @@
   {
     "Date":"2021-12-31T00:00:00.000",
     "Item":"SAMSUNG A12",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":150.0
   },
   {
@@ -8740,7 +8740,7 @@
       "SAMSUNG S7 G935FD",
       "COVER CASE SAMSUNG S7"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":61.21
   },
   {
@@ -8941,7 +8941,7 @@
   {
     "Date":"2021-12-22T00:00:00.000",
     "Item":"SAMSUNG S8",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":20.0
   },
   {
@@ -9232,7 +9232,7 @@
   {
     "Date":"2015-12-14T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":55.0
   },
   {
@@ -9268,7 +9268,7 @@
   {
     "Date":"2018-10-15T00:00:00.000",
     "Item":"IPHONE 6S+ (1998)",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":65.0
   },
   {
@@ -9528,7 +9528,7 @@
   {
     "Date":"2021-02-20T00:00:00.000",
     "Item":"SAMSUNG S8",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":15.0
   },
   {
@@ -9656,13 +9656,13 @@
   {
     "Date":"2024-04-01T00:00:00.000",
     "Item":"IPAD 3",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":20.0
   },
   {
     "Date":"2022-04-27T00:00:00.000",
     "Item":"IPAD 2",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":20.0
   },
   {
@@ -9880,7 +9880,7 @@
   {
     "Date":"2015-12-29T00:00:00.000",
     "Item":"ACER ASPIRE V3-551-8887",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":50.0
   },
   {
@@ -9957,7 +9957,7 @@
       "HP",
       "SYSTEM BORAD FAILED"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":18.69
   },
   {
@@ -10379,7 +10379,7 @@
   {
     "Date":"2016-03-31T00:00:00.000",
     "Item":"REFURBISH DELL SYSTEM",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":250.0
   },
   {
@@ -10697,7 +10697,7 @@
   {
     "Date":"2023-12-22T00:00:00.000",
     "Item":"REFURBISHED IPAD 7",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":200.0
   },
   {
@@ -11122,7 +11122,7 @@
   {
     "Date":"2025-04-24T00:00:00.000",
     "Item":"IPAD",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":80.0
   },
   {
@@ -11256,7 +11256,7 @@
   {
     "Date":"2023-09-18T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":15.0
   },
   {
@@ -11520,7 +11520,7 @@
   {
     "Date":"2024-11-11T00:00:00.000",
     "Item":"SAMSUNG S23FE",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":15.0
   },
   {
@@ -11769,7 +11769,7 @@
       "ONSITE 10\/21\/2016",
       "ONSITE 10\/27\/2016"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":900.0
   },
   {
@@ -11864,19 +11864,19 @@
   {
     "Date":"2019-09-24T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":15.0
   },
   {
     "Date":"2019-09-28T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":15.0
   },
   {
     "Date":"2019-09-14T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":15.0
   },
   {
@@ -11974,13 +11974,13 @@
   {
     "Date":"2016-08-29T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":55.0
   },
   {
     "Date":"2017-01-05T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":0.0
   },
   {
@@ -11989,7 +11989,7 @@
       "IPHONE 4S",
       "SPH-L900 SAMSUNG GALAXY NOTE 2"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":100.0
   },
   {
@@ -12288,7 +12288,7 @@
   {
     "Date":"2015-11-18T00:00:00.000",
     "Item":"IPAD MINI 3",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":80.0
   },
   {
@@ -12322,7 +12322,7 @@
   {
     "Date":"2016-12-21T00:00:00.000",
     "Item":"IPAD AIR",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":135.0
   },
   {
@@ -12612,7 +12612,7 @@
       "AMAZON FIRE HD8",
       "GOOGLE PLAY, YOUTUBE, GMAIL"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":40.0
   },
   {
@@ -12718,7 +12718,7 @@
   {
     "Date":"2020-08-17T00:00:00.000",
     "Item":"IPHONE 7 PLUS",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":60.0
   },
   {
@@ -12887,7 +12887,7 @@
   {
     "Date":"2025-08-08T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":80.0
   },
   {
@@ -12954,7 +12954,7 @@
   {
     "Date":"2020-03-11T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":20.0
   },
   {
@@ -13181,7 +13181,7 @@
       "IPAD 2 (1975)",
       "SAMSUNG T230NU"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":200.0
   },
   {
@@ -13359,7 +13359,7 @@
   {
     "Date":"2024-10-07T00:00:00.000",
     "Item":"IMAC",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":50.0
   },
   {
@@ -13815,7 +13815,7 @@
   {
     "Date":"2024-06-27T00:00:00.000",
     "Item":"IPHONE 14 PRO",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":60.0
   },
   {
@@ -14139,7 +14139,7 @@
   {
     "Date":"2021-10-04T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":10.0
   },
   {
@@ -14192,7 +14192,7 @@
   {
     "Date":"2022-10-24T00:00:00.000",
     "Item":"REFURBISHED FLIP PHONE",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":60.0
   },
   {
@@ -14210,7 +14210,7 @@
       "SAMSUNG S5 EXTENDED BATTERY",
       "RETURN LENOVO , CANNOT FIND PARTS 7\/25\/2019"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":25.0
   },
   {
@@ -14340,7 +14340,7 @@
       "MACBOOK",
       "PASSWORD TO BOTH COMPUTERS: ALLAHSWT1"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":260.0
   },
   {
@@ -15053,13 +15053,13 @@
       "IPHONE 5 WHITE (RFRB)",
       "TRADE IN BROKEN IPHONE 5"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":310.0
   },
   {
     "Date":"2025-08-25T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":20.0
   },
   {
@@ -15240,7 +15240,7 @@
   {
     "Date":"2016-06-14T00:00:00.000",
     "Item":"LG VS985",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":120.0
   },
   {
@@ -15306,7 +15306,7 @@
       "TOSHIBA C55-A5285",
       "USED TOSHIBA CHARGER"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":30.0
   },
   {
@@ -15339,7 +15339,7 @@
   {
     "Date":"2017-05-22T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":15.0
   },
   {
@@ -15469,7 +15469,7 @@
   {
     "Date":"2016-03-16T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":80.0
   },
   {
@@ -15553,7 +15553,7 @@
   {
     "Date":"2018-10-31T00:00:00.000",
     "Item":"MOTOROLA Z2 FORCE",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":60.0
   },
   {
@@ -15664,7 +15664,7 @@
   {
     "Date":"2015-12-24T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":40.0
   },
   {
@@ -15860,7 +15860,7 @@
   {
     "Date":"2016-02-08T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":28.0
   },
   {
@@ -15888,7 +15888,7 @@
   {
     "Date":"2019-01-21T00:00:00.000",
     "Item":"HP ENVY",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":250.0
   },
   {
@@ -16220,7 +16220,7 @@
   {
     "Date":"2017-05-06T00:00:00.000",
     "Item":"USED DELL LAPTOP",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":243.0
   },
   {
@@ -16339,7 +16339,7 @@
   {
     "Date":"2018-10-20T00:00:00.000",
     "Item":"MACBOOK",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":80.0
   },
   {
@@ -16378,7 +16378,7 @@
   {
     "Date":"2024-08-21T00:00:00.000",
     "Item":"DELL 7300",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":150.0
   },
   {
@@ -16826,7 +16826,7 @@
   {
     "Date":"2016-04-19T00:00:00.000",
     "Item":"SAMSUNG S4",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":65.0
   },
   {
@@ -16865,7 +16865,7 @@
   {
     "Date":"2015-12-14T00:00:00.000",
     "Item":"IPAD 2 16GB WIFI",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":179.0
   },
   {
@@ -16904,7 +16904,7 @@
   {
     "Date":"2016-06-10T00:00:00.000",
     "Item":"SONY VAIO AC ADAPTER",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":60.0
   },
   {
@@ -16995,7 +16995,7 @@
   {
     "Date":"2023-03-13T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":150.0
   },
   {
@@ -17071,7 +17071,7 @@
   {
     "Date":"2022-01-22T00:00:00.000",
     "Item":"SAMSUNG NOTE 20 ULTRA (BLACK)",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":60.0
   },
   {
@@ -17132,7 +17132,7 @@
   {
     "Date":"2020-08-24T00:00:00.000",
     "Item":"LENOVO LAPTOP",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":40.0
   },
   {
@@ -17549,7 +17549,7 @@
   {
     "Date":"2020-10-02T00:00:00.000",
     "Item":"IPHONE",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":160.0
   },
   {
@@ -17853,7 +17853,7 @@
   {
     "Date":"2019-07-15T00:00:00.000",
     "Item":"LG G6",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":40.0
   },
   {
@@ -17871,7 +17871,7 @@
   {
     "Date":"2023-07-24T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":80.0
   },
   {
@@ -17899,13 +17899,13 @@
   {
     "Date":"2022-11-01T00:00:00.000",
     "Item":"IPHONE 11 PRO MAX 256GB SPACE GRAY",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":650.0
   },
   {
     "Date":"2021-01-02T00:00:00.000",
     "Item":"HP 15-BS119DX",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":160.0
   },
   {
@@ -17917,7 +17917,7 @@
   {
     "Date":"2016-09-07T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":0.0
   },
   {
@@ -17986,7 +17986,7 @@
   {
     "Date":"2016-09-23T00:00:00.000",
     "Item":"IPHONE 5C",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":90.0
   },
   {
@@ -18139,7 +18139,7 @@
   {
     "Date":"2022-01-11T00:00:00.000",
     "Item":"HP LAPTOP",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":160.0
   },
   {
@@ -18351,7 +18351,7 @@
   {
     "Date":"2016-09-09T00:00:00.000",
     "Item":"IPHONE 6 GREY",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":550.0
   },
   {
@@ -18381,7 +18381,7 @@
   {
     "Date":"2017-05-31T00:00:00.000",
     "Item":"SAMSUNG GALAXY S7",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":374.3
   },
   {
@@ -18744,7 +18744,7 @@
       "HP LAPTOP (1949)",
       "TEST SYSTEM RUNNING OK"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":0.0
   },
   {
@@ -18908,7 +18908,7 @@
       "HP (545454)",
       "AMAZON TABLET"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":80.0
   },
   {
@@ -18932,7 +18932,7 @@
   {
     "Date":"2024-06-28T00:00:00.000",
     "Item":"REFURBISHED IPHONE 11 PRO 64GB GREEN",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":350.0
   },
   {
@@ -19277,7 +19277,7 @@
   {
     "Date":"2021-07-24T00:00:00.000",
     "Item":"SAMSUNG S20 FE 5G",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":60.0
   },
   {
@@ -19530,7 +19530,7 @@
   {
     "Date":"2021-06-28T00:00:00.000",
     "Item":"SAMSUNG A02S",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":240.0
   },
   {
@@ -19558,7 +19558,7 @@
   {
     "Date":"2018-09-13T00:00:00.000",
     "Item":"REFURBISHED 2009 IMAC WITH MAC OS 10.7",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":350.0
   },
   {
@@ -19644,7 +19644,7 @@
       "TEMPERED GLASS IPHONE 5S",
       "TEMPERED GLASS IPHONE 8+"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":388.0
   },
   {
@@ -19656,7 +19656,7 @@
       "IPHONE 8+ CASE (BLACK, RED, RED)",
       "MOTOROLA XT2163DL CASE (BLACK, RED)"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":803.0
   },
   {
@@ -19719,19 +19719,19 @@
       "LG K10 GOLD (REFURBISHED)",
       "SAMSUNG J2"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":640.0
   },
   {
     "Date":"2020-08-18T00:00:00.000",
     "Item":"IPHONE 8+ 64GB  SPACE GRAY",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":500.0
   },
   {
     "Date":"2020-09-30T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":80.0
   },
   {
@@ -19772,7 +19772,7 @@
       "SAMSUNG A42 128GB",
       "SAMSUNG A32 128GB"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":830.0
   },
   {
@@ -19889,7 +19889,7 @@
   {
     "Date":"2021-12-15T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":40.0
   },
   {
@@ -19907,7 +19907,7 @@
   {
     "Date":"2024-10-28T00:00:00.000",
     "Item":"IPHONE 14 PRO MAX (PURPLE)",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":980.0
   },
   {
@@ -19928,7 +19928,7 @@
   {
     "Date":"2019-04-13T00:00:00.000",
     "Item":"IPHONE CABLE",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":80.0
   },
   {
@@ -19943,19 +19943,19 @@
       "SAMSUNG A20",
       "SAMSUNG A01"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":540.0
   },
   {
     "Date":"2021-06-21T00:00:00.000",
     "Item":"REFURBISHED IPHONE 8+ 256GB",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":430.0
   },
   {
     "Date":"2021-07-09T00:00:00.000",
     "Item":"REFURBISHED IPHONE 8+ 64GB",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":380.0
   },
   {
@@ -19975,13 +19975,13 @@
       "SAMSUNG A12",
       "REFURBISHED PHONE"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":500.0
   },
   {
     "Date":"2016-07-29T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":0.0
   },
   {
@@ -19996,7 +19996,7 @@
       "SAMSUNG A10E",
       "REFURBISHED PHONE"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":120.0
   },
   {
@@ -20204,7 +20204,7 @@
   {
     "Date":"2024-07-15T00:00:00.000",
     "Item":"REFURSBISHED LAPTOP LSXERN",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":250.0
   },
   {
@@ -20349,7 +20349,7 @@
   {
     "Date":"2022-01-18T00:00:00.000",
     "Item":"SAMSUNG A12 SM-A125U",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":25.0
   },
   {
@@ -20592,7 +20592,7 @@
       "IPAD",
       "IPAD CASE"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":80.0
   },
   {
@@ -20670,7 +20670,7 @@
   {
     "Date":"2020-11-12T00:00:00.000",
     "Item":"IPAD 6TH GEN (08215)",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":140.0
   },
   {
@@ -20727,7 +20727,7 @@
   {
     "Date":"2024-07-12T00:00:00.000",
     "Item":"IPHONE 13",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":60.0
   },
   {
@@ -20938,7 +20938,7 @@
   {
     "Date":"2017-02-08T00:00:00.000",
     "Item":"ORDERED FROM AMAZON",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":0.0
   },
   {
@@ -21194,7 +21194,7 @@
   {
     "Date":"2015-10-23T00:00:00.000",
     "Item":"IPAD 2 A1395",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":199.0
   },
   {
@@ -21370,7 +21370,7 @@
   {
     "Date":"2021-08-06T00:00:00.000",
     "Item":"SAMSUNG S20 (1122)",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":40.0
   },
   {
@@ -21439,7 +21439,7 @@
   {
     "Date":"2016-06-11T00:00:00.000",
     "Item":"NOKIA C3 BATTERY",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":35.0
   },
   {
@@ -21941,7 +21941,7 @@
   {
     "Date":"2020-06-04T00:00:00.000",
     "Item":"SAMSUNG USB C CHARGING CABLE + CONNECTOR",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":15.0
   },
   {
@@ -21953,7 +21953,7 @@
   {
     "Date":"2024-08-31T00:00:00.000",
     "Item":"XBOX SERIES X",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":150.0
   },
   {
@@ -22371,7 +22371,7 @@
   {
     "Date":"2020-03-09T00:00:00.000",
     "Item":"SAMSUNG S5",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":40.0
   },
   {
@@ -22410,7 +22410,7 @@
   {
     "Date":"2019-03-14T00:00:00.000",
     "Item":"DELL BATTERY J1KND 11.1V 48WH",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":50.0
   },
   {
@@ -22504,7 +22504,7 @@
   {
     "Date":"2025-02-11T00:00:00.000",
     "Item":"HP 64GB USB DRIVE",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":25.0
   },
   {
@@ -22610,7 +22610,7 @@
   {
     "Date":"2019-04-19T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":100.0
   },
   {
@@ -22716,7 +22716,7 @@
   {
     "Date":"2017-12-28T00:00:00.000",
     "Item":"ACER (CHAMERAH8)",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":80.0
   },
   {
@@ -22937,7 +22937,7 @@
   {
     "Date":"2020-08-06T00:00:00.000",
     "Item":"IPAD MINI 4",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":280.0
   },
   {
@@ -23059,7 +23059,7 @@
   {
     "Date":"2016-06-29T00:00:00.000",
     "Item":"IPHONE 5",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":50.0
   },
   {
@@ -23270,7 +23270,7 @@
   {
     "Date":"2019-10-08T00:00:00.000",
     "Item":"SAMSUNG A10",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":250.0
   },
   {
@@ -23279,7 +23279,7 @@
       "IPHONE 11 PRO",
       "RECHARGE IPHONE"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":45.0
   },
   {
@@ -23340,7 +23340,7 @@
       "MOTO G5 PLUS (REFURBISHED)",
       "DELL LAPTOP (REFURBISHED)"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":610.0
   },
   {
@@ -23738,7 +23738,7 @@
       "HP LAPTOP",
       "FACTORY SYSTEM OS"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":120.0
   },
   {
@@ -23892,7 +23892,7 @@
   {
     "Date":"2016-10-11T00:00:00.000",
     "Item":"IPHONE 6",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":100.0
   },
   {
@@ -23944,13 +23944,13 @@
   {
     "Date":"2021-01-11T00:00:00.000",
     "Item":"SAMSUNG GALAXY NOTE 8  LILAC",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":40.0
   },
   {
     "Date":"2021-07-24T00:00:00.000",
     "Item":"SAMSUNG NOTE20 ULTRA",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":80.0
   },
   {
@@ -23962,7 +23962,7 @@
   {
     "Date":"2016-06-28T00:00:00.000",
     "Item":"SAMSUNG NOTE 5",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":15.0
   },
   {
@@ -24007,7 +24007,7 @@
   {
     "Date":"2019-03-26T00:00:00.000",
     "Item":"HP CHARGER 740015-003 19.5V 2.31A",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":50.0
   },
   {
@@ -24172,7 +24172,7 @@
   {
     "Date":"2019-05-21T00:00:00.000",
     "Item":"IPHONE X",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":80.0
   },
   {
@@ -24506,7 +24506,7 @@
   {
     "Date":"2021-01-21T00:00:00.000",
     "Item":"COMPUTER SERVICE",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":0.0
   },
   {
@@ -24712,13 +24712,13 @@
   {
     "Date":"2021-03-06T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":0.0
   },
   {
     "Date":"2022-09-26T00:00:00.000",
     "Item":"SAMSUNG EVO 256GB SDCARD",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":40.0
   },
   {
@@ -24739,19 +24739,19 @@
   {
     "Date":"2024-06-29T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":100.0
   },
   {
     "Date":"2025-04-08T00:00:00.000",
     "Item":"PCB BOARD",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":100.0
   },
   {
     "Date":"2021-03-06T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":0.0
   },
   {
@@ -25140,7 +25140,7 @@
   {
     "Date":"2025-09-19T00:00:00.000",
     "Item":"REFURBISHED FLIP PHONE",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":100.0
   },
   {
@@ -25245,7 +25245,7 @@
   {
     "Date":"2017-06-24T00:00:00.000",
     "Item":"IPHONE CHARGING CABLE",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":10.0
   },
   {
@@ -25495,7 +25495,7 @@
   {
     "Date":"2018-09-27T00:00:00.000",
     "Item":"SAMSUNG NOTE 5",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":40.0
   },
   {
@@ -25935,7 +25935,7 @@
   {
     "Date":"2022-10-01T00:00:00.000",
     "Item":"COMPUTER PARTS - COAX ADAPTER",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":105.0
   },
   {
@@ -26130,7 +26130,7 @@
   {
     "Date":"2016-09-06T00:00:00.000",
     "Item":"IPAD AIR COVER",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":25.0
   },
   {
@@ -26157,7 +26157,7 @@
   {
     "Date":"2018-09-15T00:00:00.000",
     "Item":"REFURBISHED TMOBILE ALCATEL FLIP PHONE",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":50.0
   },
   {
@@ -26489,7 +26489,7 @@
   {
     "Date":"2024-06-12T00:00:00.000",
     "Item":"RECYCLE 2 LAPTOP, 2 TABLET",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":40.0
   },
   {
@@ -26605,7 +26605,7 @@
   {
     "Date":"2019-08-20T00:00:00.000",
     "Item":"REFURBISHED IPHONE 7 BLACK 128MB",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":330.0
   },
   {
@@ -26931,7 +26931,7 @@
   {
     "Date":"2024-01-09T00:00:00.000",
     "Item":"SAMSUNG NOTE 20",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":95.0
   },
   {
@@ -27109,7 +27109,7 @@
       "COMPUTER- DOWNGRADE TO WINDOWS 7",
       "EARPIECE- IPHONE 6S+"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":115.99
   },
   {
@@ -27458,13 +27458,13 @@
   {
     "Date":"2015-12-12T00:00:00.000",
     "Item":"IPHONE 5",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":55.0
   },
   {
     "Date":"2022-07-26T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":50.0
   },
   {
@@ -27850,7 +27850,7 @@
       "REFURBISHED HP COMPUTER",
       "PAID $100 CASH TO LEO FOR HP 8\/27\/2021"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":100.0
   },
   {
@@ -27911,7 +27911,7 @@
   {
     "Date":"2016-12-26T00:00:00.000",
     "Item":"SAMSUNG S6 G920P GOLD BACK COVER",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":30.0
   },
   {
@@ -28019,7 +28019,7 @@
       "MOTOROLA STYLUS G XT2131",
       "NO MICROPHONE"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":120.0
   },
   {
@@ -28053,7 +28053,7 @@
   {
     "Date":"2016-10-20T00:00:00.000",
     "Item":"IPAD AIR BLUETOOTH KEYBOARD",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":50.0
   },
   {
@@ -28089,7 +28089,7 @@
   {
     "Date":"2022-07-27T00:00:00.000",
     "Item":"HP",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":40.0
   },
   {
@@ -28117,7 +28117,7 @@
   {
     "Date":"2019-03-21T00:00:00.000",
     "Item":"IPAD 2",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":120.0
   },
   {
@@ -28290,7 +28290,7 @@
   {
     "Date":"2015-12-18T00:00:00.000",
     "Item":"SAMSUNG SCH-U680 BATTERY",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":30.0
   },
   {
@@ -28333,7 +28333,7 @@
   {
     "Date":"2020-12-07T00:00:00.000",
     "Item":"IPAD 2 (PINK CASE)",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":130.0
   },
   {
@@ -28748,7 +28748,7 @@
   {
     "Date":"2024-05-13T00:00:00.000",
     "Item":"TMOBILE REVVL 4+",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":90.0
   },
   {
@@ -28929,7 +28929,7 @@
       "DELL LAPTOP",
       "ADJUST TOUCHPAD CLICK"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":80.0
   },
   {
@@ -28999,7 +28999,7 @@
       "APPLE MAC",
       "SYSTEM SHUTDOWN"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":160.0
   },
   {
@@ -29017,7 +29017,7 @@
   {
     "Date":"2017-07-21T00:00:00.000",
     "Item":"IPHONE 5SE (222222)",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":51.4
   },
   {
@@ -29032,7 +29032,7 @@
   {
     "Date":"2024-07-15T00:00:00.000",
     "Item":"IPHONE 11",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":105.0
   },
   {
@@ -29388,7 +29388,7 @@
   {
     "Date":"2016-05-10T00:00:00.000",
     "Item":"ARCHOS 101 INTERNET TABLET",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":180.0
   },
   {
@@ -29731,7 +29731,7 @@
   {
     "Date":"2019-05-01T00:00:00.000",
     "Item":"PURCHASE REFURBISHED IPAD 6",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":0.0
   },
   {
@@ -30466,7 +30466,7 @@
   {
     "Date":"2016-03-02T00:00:00.000",
     "Item":"SAMSUNG T530NU CHARGING PORT",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":90.0
   },
   {
@@ -30660,7 +30660,7 @@
       "IPHONE CABLE",
       "IPHONE ADAPTER"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":25.0
   },
   {
@@ -30759,7 +30759,7 @@
   {
     "Date":"2016-08-12T00:00:00.000",
     "Item":"VERIZON LG G5",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":20.0
   },
   {
@@ -30835,7 +30835,7 @@
       "ONSITE SERVICE 9:30AM 4\/24\/2021",
       "CONNECT PRINTER AND LAPTOP"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":20.0
   },
   {
@@ -31357,7 +31357,7 @@
   {
     "Date":"2020-08-05T00:00:00.000",
     "Item":"HP DRIVE",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":120.0
   },
   {
@@ -31392,7 +31392,7 @@
   {
     "Date":"2021-06-01T00:00:00.000",
     "Item":"IPHONE X",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":70.0
   },
   {
@@ -31432,7 +31432,7 @@
   {
     "Date":"2016-10-01T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":35.0
   },
   {
@@ -31520,13 +31520,13 @@
   {
     "Date":"2018-10-24T00:00:00.000",
     "Item":"SAMSUNG NP355E5C-A01US",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":30.0
   },
   {
     "Date":"2016-01-21T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":110.0
   },
   {
@@ -31550,7 +31550,7 @@
   {
     "Date":"2021-07-21T00:00:00.000",
     "Item":"IPHONE X (PINK CASE) (1625)",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":85.0
   },
   {
@@ -31595,7 +31595,7 @@
   {
     "Date":"2024-11-19T00:00:00.000",
     "Item":"SAMSUNG",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":60.0
   },
   {
@@ -31664,7 +31664,7 @@
   {
     "Date":"2017-06-29T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":0.0
   },
   {
@@ -31806,7 +31806,7 @@
   {
     "Date":"2017-04-11T00:00:00.000",
     "Item":"MACBOOK (2236)",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":-30.0
   },
   {
@@ -31828,7 +31828,7 @@
   {
     "Date":"2021-08-23T00:00:00.000",
     "Item":"IPHONE 7",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":75.0
   },
   {
@@ -31852,7 +31852,7 @@
   {
     "Date":"2018-02-16T00:00:00.000",
     "Item":"IPHONE 5",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":40.0
   },
   {
@@ -31889,7 +31889,7 @@
       "MOTO G POWER",
       "ORDER PARTS AND CALL CUSTOMER TO BRING PHONE"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":50.0
   },
   {
@@ -32633,7 +32633,7 @@
       "IPHONE 7",
       "CUSTOMER GAVE 2 SAMSUNG PHONES 5\/1\/2019"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":0.0
   },
   {
@@ -32670,7 +32670,7 @@
   {
     "Date":"2016-07-22T00:00:00.000",
     "Item":"IPAD MINI",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":40.0
   },
   {
@@ -32715,7 +32715,7 @@
   {
     "Date":"2016-04-29T00:00:00.000",
     "Item":"ASUS",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":40.0
   },
   {
@@ -32819,7 +32819,7 @@
   {
     "Date":"2020-08-17T00:00:00.000",
     "Item":"IPHONE 8 PLUS",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":70.0
   },
   {
@@ -32894,7 +32894,7 @@
       "TMOBILE",
       "GALAXY NOTE 4 (WHITE)"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":100.0
   },
   {
@@ -32949,7 +32949,7 @@
   {
     "Date":"2017-01-24T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":90.0
   },
   {
@@ -32967,7 +32967,7 @@
       "SAMSUNG A01 CORE",
       "PHONE PURCHASE"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":150.0
   },
   {
@@ -33240,7 +33240,7 @@
   {
     "Date":"2016-07-07T00:00:00.000",
     "Item":"IPHONE 5 S",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":51.4
   },
   {
@@ -33295,7 +33295,7 @@
   {
     "Date":"2016-07-25T00:00:00.000",
     "Item":"GALAXY S7",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":150.0
   },
   {
@@ -33479,7 +33479,7 @@
   {
     "Date":"2016-02-16T00:00:00.000",
     "Item":"IPHONE 5 TO IPHONE 5",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":60.0
   },
   {
@@ -33494,7 +33494,7 @@
   {
     "Date":"2016-12-19T00:00:00.000",
     "Item":"SAMSUNG S6 EDGE GOLD",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":0.0
   },
   {
@@ -33862,7 +33862,7 @@
   {
     "Date":"2018-07-26T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":80.0
   },
   {
@@ -33910,7 +33910,7 @@
   {
     "Date":"2018-12-22T00:00:00.000",
     "Item":"SAMSUNG S4 BATTERY",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":30.0
   },
   {
@@ -33984,7 +33984,7 @@
   {
     "Date":"2016-07-28T00:00:00.000",
     "Item":"SAMSUNG NOTE 3",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":65.0
   },
   {
@@ -34230,7 +34230,7 @@
   {
     "Date":"2023-11-06T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":150.0
   },
   {
@@ -34242,7 +34242,7 @@
   {
     "Date":"2022-11-07T00:00:00.000",
     "Item":"IPHONE 13 PRO",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":75.0
   },
   {
@@ -34324,7 +34324,7 @@
   {
     "Date":"2020-11-09T00:00:00.000",
     "Item":"MOTOROLA G7 (XT1962-1)",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":50.0
   },
   {
@@ -34370,7 +34370,7 @@
   {
     "Date":"2016-08-08T00:00:00.000",
     "Item":"IPHONE  5S",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":80.0
   },
   {
@@ -34649,7 +34649,7 @@
   {
     "Date":"2017-02-27T00:00:00.000",
     "Item":"IPAD AIR CASE",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":25.0
   },
   {
@@ -34688,7 +34688,7 @@
   {
     "Date":"2016-06-16T00:00:00.000",
     "Item":"IPHONE 5S",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":90.0
   },
   {
@@ -34724,7 +34724,7 @@
   {
     "Date":"2017-08-02T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":27.45
   },
   {
@@ -34957,7 +34957,7 @@
   {
     "Date":"2017-05-25T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":80.0
   },
   {
@@ -35725,7 +35725,7 @@
   {
     "Date":"2025-07-28T00:00:00.000",
     "Item":"SAMSUNG A03S",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":120.0
   },
   {
@@ -36052,7 +36052,7 @@
       "IMAC",
       "RETURN SYSTEM TO CUSTOMER 9\/21\/2019"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":0.0
   },
   {
@@ -36213,7 +36213,7 @@
   {
     "Date":"2020-12-26T00:00:00.000",
     "Item":"SAMSUNG M300 ADAPTER",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":50.0
   },
   {
@@ -36545,7 +36545,7 @@
   {
     "Date":"2024-10-10T00:00:00.000",
     "Item":"MACBOOK A1708",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":40.0
   },
   {
@@ -36691,7 +36691,7 @@
       "LENOVO LAPTOP",
       "ONSITE SERVICE"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":0.0
   },
   {
@@ -36738,7 +36738,7 @@
   {
     "Date":"2018-11-01T00:00:00.000",
     "Item":"SAMSUNG S7 G930P GRAY\/BLACK",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":50.0
   },
   {
@@ -37000,13 +37000,13 @@
   {
     "Date":"2017-10-17T00:00:00.000",
     "Item":"SAMSUNG S7 BLACK REAR CAMERA COVER",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":40.0
   },
   {
     "Date":"2024-11-05T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":40.0
   },
   {
@@ -37281,7 +37281,7 @@
   {
     "Date":"2016-10-08T00:00:00.000",
     "Item":"IPHONE 5C",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":42.06
   },
   {
@@ -37344,7 +37344,7 @@
       "MAXWEST FLIP PHONE",
       "RECYCLE 2 TMOBILE PHONES FOR FREE"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":167.0
   },
   {
@@ -37953,7 +37953,7 @@
   {
     "Date":"2019-10-02T00:00:00.000",
     "Item":"ACER BATTERY CHARGER",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":80.0
   },
   {
@@ -38341,7 +38341,7 @@
   {
     "Date":"2019-09-20T00:00:00.000",
     "Item":"SAMSUNG S5 BATTERY G900T1",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":40.0
   },
   {
@@ -38426,7 +38426,7 @@
   {
     "Date":"2023-02-25T00:00:00.000",
     "Item":"ACER",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":160.0
   },
   {
@@ -38453,7 +38453,7 @@
   {
     "Date":"2025-05-19T00:00:00.000",
     "Item":"SAMSUNG S23+",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":80.0
   },
   {
@@ -38522,7 +38522,7 @@
   {
     "Date":"2021-06-01T00:00:00.000",
     "Item":"GALAXY S21 128 G BLACK",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":750.0
   },
   {
@@ -38820,7 +38820,7 @@
   {
     "Date":"2015-09-28T00:00:00.000",
     "Item":"IPHONE 5S  SPEAKER AND MIC NOT WORKING",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":40.0
   },
   {
@@ -38908,7 +38908,7 @@
   {
     "Date":"2018-06-07T00:00:00.000",
     "Item":"IPHONE 7",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":120.0
   },
   {
@@ -39070,7 +39070,7 @@
       "ALCATEL VOLTA (5002R)",
       "REFURBISHED PHONE"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":120.0
   },
   {
@@ -39152,7 +39152,7 @@
   {
     "Date":"2017-12-19T00:00:00.000",
     "Item":"DELL",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":121.5
   },
   {
@@ -39192,7 +39192,7 @@
   {
     "Date":"2016-10-22T00:00:00.000",
     "Item":"VERIZON SAMSUNG S5",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":15.0
   },
   {
@@ -39301,7 +39301,7 @@
   {
     "Date":"2016-11-19T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":60.0
   },
   {
@@ -39588,7 +39588,7 @@
       "ASUS (ICEIT)",
       "VINYLMASTER ERROR \/ ASUSVIBE ERROR"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":60.0
   },
   {
@@ -39644,7 +39644,7 @@
   {
     "Date":"2016-11-19T00:00:00.000",
     "Item":"DELL STUDIO",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":80.0
   },
   {
@@ -39680,7 +39680,7 @@
   {
     "Date":"2021-06-22T00:00:00.000",
     "Item":"LG (2021)",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":40.0
   },
   {
@@ -40243,7 +40243,7 @@
       "REFURBISHED HP LAPTOP",
       "RETURN SYSTEM FOR FULL REFUND 9\/16\/2021"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":300.0
   },
   {
@@ -40592,7 +40592,7 @@
   {
     "Date":"2016-08-06T00:00:00.000",
     "Item":"SAMSUNG S5",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":20.0
   },
   {
@@ -40807,7 +40807,7 @@
   {
     "Date":"2018-11-29T00:00:00.000",
     "Item":"IPHONE 6",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":45.0
   },
   {
@@ -40860,7 +40860,7 @@
   {
     "Date":"2016-01-14T00:00:00.000",
     "Item":"SAMSUNG S4 M919 (WHITE )",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":140.0
   },
   {
@@ -40977,7 +40977,7 @@
   {
     "Date":"2017-03-13T00:00:00.000",
     "Item":"HP COMPAQ 6910P",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":0.0
   },
   {
@@ -41061,7 +41061,7 @@
   {
     "Date":"2018-09-05T00:00:00.000",
     "Item":"TOSHIBA C55D-B5102 (REFURBISHED)",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":290.0
   },
   {
@@ -41161,7 +41161,7 @@
   {
     "Date":"2022-11-21T00:00:00.000",
     "Item":"IWATCH SERIES 5  (1969)",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":40.0
   },
   {
@@ -41430,7 +41430,7 @@
   {
     "Date":"2016-08-25T00:00:00.000",
     "Item":"IPAD MINI 1",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":110.0
   },
   {
@@ -41511,7 +41511,7 @@
   {
     "Date":"2021-12-28T00:00:00.000",
     "Item":"LG K40",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":200.0
   },
   {
@@ -41529,7 +41529,7 @@
   {
     "Date":"2025-08-20T00:00:00.000",
     "Item":"SAMSUNG S22",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":25.0
   },
   {
@@ -41782,19 +41782,19 @@
   {
     "Date":"2025-03-19T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":15.0
   },
   {
     "Date":"2021-07-12T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":12.0
   },
   {
     "Date":"2022-07-01T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":15.0
   },
   {
@@ -41806,7 +41806,7 @@
   {
     "Date":"2022-07-14T00:00:00.000",
     "Item":"SAMSUNG S9",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":20.0
   },
   {
@@ -41818,25 +41818,25 @@
   {
     "Date":"2022-12-02T00:00:00.000",
     "Item":"SAMSUNG S9",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":15.0
   },
   {
     "Date":"2023-01-14T00:00:00.000",
     "Item":"SAMSUNG S9",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":13.0
   },
   {
     "Date":"2023-07-15T00:00:00.000",
     "Item":"SAMSUNG S9",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":15.0
   },
   {
     "Date":"2021-05-13T00:00:00.000",
     "Item":"SAMSUNG S9",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":80.0
   },
   {
@@ -41919,7 +41919,7 @@
   {
     "Date":"2020-10-16T00:00:00.000",
     "Item":"MACBOOK PRO (CUSTOMER TOOK COMPUTER)",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":80.0
   },
   {
@@ -42137,7 +42137,7 @@
   {
     "Date":"2021-01-15T00:00:00.000",
     "Item":"Z DROID",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":50.0
   },
   {
@@ -42693,7 +42693,7 @@
   {
     "Date":"2021-02-16T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":60.0
   },
   {
@@ -42796,7 +42796,7 @@
   {
     "Date":"2019-03-21T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":70.0
   },
   {
@@ -43151,7 +43151,7 @@
   {
     "Date":"2016-09-28T00:00:00.000",
     "Item":"IDROID TANGO 2",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":170.0
   },
   {
@@ -43304,7 +43304,7 @@
   {
     "Date":"2025-01-25T00:00:00.000",
     "Item":"ASUS LAPTOP",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":150.0
   },
   {
@@ -43437,7 +43437,7 @@
   {
     "Date":"2016-09-09T00:00:00.000",
     "Item":"IPHONE 6 BLACK",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":70.0
   },
   {
@@ -43986,7 +43986,7 @@
       "ASUS X551M (BACKS123)",
       "HEADPHONE JACK IS NOT WORKING"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":80.0
   },
   {
@@ -44343,7 +44343,7 @@
   {
     "Date":"2016-12-02T00:00:00.000",
     "Item":"USED TOSHIBA ADAPTER",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":0.0
   },
   {
@@ -44505,7 +44505,7 @@
   {
     "Date":"2020-08-07T00:00:00.000",
     "Item":"IPHONE",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":60.0
   },
   {
@@ -44554,7 +44554,7 @@
   {
     "Date":"2020-11-06T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":142.0
   },
   {
@@ -44654,7 +44654,7 @@
   {
     "Date":"2018-02-07T00:00:00.000",
     "Item":"LG VX8560 BATTERY \/ LGIP-330H",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":60.0
   },
   {
@@ -44684,7 +44684,7 @@
   {
     "Date":"2018-01-26T00:00:00.000",
     "Item":"IPHONE 7",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":15.0
   },
   {
@@ -44760,7 +44760,7 @@
   {
     "Date":"2020-12-11T00:00:00.000",
     "Item":"SAMSUNG A21",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":15.0
   },
   {
@@ -44877,7 +44877,7 @@
   {
     "Date":"2020-10-27T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":60.0
   },
   {
@@ -45357,7 +45357,7 @@
   {
     "Date":"2021-09-04T00:00:00.000",
     "Item":"RECYCLE OLD IPHONE 5",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":0.0
   },
   {
@@ -45399,7 +45399,7 @@
       "APPLE MACBOOK AIR",
       "BACKUP DATA TO EXTERNAL SEAGATE"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":40.0
   },
   {
@@ -45474,7 +45474,7 @@
   {
     "Date":"2017-02-02T00:00:00.000",
     "Item":"REFURBISHED IPAD 2",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":150.0
   },
   {
@@ -45511,7 +45511,7 @@
   {
     "Date":"2016-07-29T00:00:00.000",
     "Item":"MACBOOK",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":70.0
   },
   {
@@ -45739,7 +45739,7 @@
   {
     "Date":"2021-08-03T00:00:00.000",
     "Item":"SAMSUNG S9",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":60.0
   },
   {
@@ -45775,7 +45775,7 @@
   {
     "Date":"2016-09-08T00:00:00.000",
     "Item":"MOTOROLA DRIOD XT1080",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":130.0
   },
   {
@@ -46060,7 +46060,7 @@
   {
     "Date":"2024-04-15T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":50.0
   },
   {
@@ -46075,7 +46075,7 @@
   {
     "Date":"2019-08-26T00:00:00.000",
     "Item":"TOSHIBA CHARGING ADAPTER",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":60.0
   },
   {
@@ -46170,7 +46170,7 @@
   {
     "Date":"2021-05-01T00:00:00.000",
     "Item":"SAMSUNG S20 5G G981U",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":70.0
   },
   {
@@ -46822,7 +46822,7 @@
       "IPHONE 8",
       "RECHARGE PHONE"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":40.0
   },
   {
@@ -46968,7 +46968,7 @@
   {
     "Date":"2018-01-08T00:00:00.000",
     "Item":"ACER ASPIRE 5733Z-4851",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":40.0
   },
   {
@@ -47111,7 +47111,7 @@
   {
     "Date":"2021-01-18T00:00:00.000",
     "Item":"IPHONE XS MAX 64GB",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":700.0
   },
   {
@@ -47627,7 +47627,7 @@
       "SAMSUNG A01 CORE",
       "PHONE PURCHASE"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":160.0
   },
   {
@@ -47730,7 +47730,7 @@
       "USED IPAD 2",
       "IPAD 2 CASE $35"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":269.0
   },
   {
@@ -47808,7 +47808,7 @@
   {
     "Date":"2022-10-26T00:00:00.000",
     "Item":"IPHONE 12 PRO MAX",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":60.0
   },
   {
@@ -47838,7 +47838,7 @@
   {
     "Date":"2020-10-02T00:00:00.000",
     "Item":"SAMSUNG S10",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":50.0
   },
   {
@@ -47932,7 +47932,7 @@
   {
     "Date":"2019-04-15T00:00:00.000",
     "Item":"USED IPHONE 8+",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":-30.0
   },
   {
@@ -48473,7 +48473,7 @@
       "SAMSUNG LAPTOP",
       "INSTEAD, RETURN LAPTOP 8\/6\/2020"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":0.0
   },
   {
@@ -48553,7 +48553,7 @@
   {
     "Date":"2016-05-31T00:00:00.000",
     "Item":"ASUS LAPTOP",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":80.0
   },
   {
@@ -48833,7 +48833,7 @@
       "HP PAVILION DV7",
       "CAMERA WORK \u2026.  GIVE SYSTEM BACK TO CUSTOMER"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":0.0
   },
   {
@@ -49320,7 +49320,7 @@
   {
     "Date":"2016-07-19T00:00:00.000",
     "Item":"IPHONE 5S (888888)",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":0.0
   },
   {
@@ -50119,7 +50119,7 @@
   {
     "Date":"2016-05-13T00:00:00.000",
     "Item":"ASUS NETBOOK",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":100.0
   },
   {
@@ -50159,7 +50159,7 @@
   {
     "Date":"2022-07-22T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":0.0
   },
   {
@@ -50210,7 +50210,7 @@
   {
     "Date":"2017-05-10T00:00:00.000",
     "Item":"IPHONE 5S",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":0.0
   },
   {
@@ -50240,7 +50240,7 @@
   {
     "Date":"2025-11-29T00:00:00.000",
     "Item":"ACER PRADOTER PCH315-55 (211505)",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":0.0
   },
   {
@@ -50370,7 +50370,7 @@
   {
     "Date":"2023-07-08T00:00:00.000",
     "Item":"SAMSUNG NOTE 20 ULTRA 5G",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":70.0
   },
   {
@@ -50382,7 +50382,7 @@
   {
     "Date":"2021-08-16T00:00:00.000",
     "Item":"MOTOROLA  2043",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":85.0
   },
   {
@@ -50518,7 +50518,7 @@
   {
     "Date":"2022-09-07T00:00:00.000",
     "Item":"MACBOOK AIR",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":0.0
   },
   {
@@ -50686,7 +50686,7 @@
   {
     "Date":"2025-11-29T00:00:00.000",
     "Item":"IPHONE 14 PLUS (091985)",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":0.0
   },
   {
@@ -50704,7 +50704,7 @@
   {
     "Date":"2021-04-07T00:00:00.000",
     "Item":null,
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":0.0
   },
   {
@@ -50725,7 +50725,7 @@
   {
     "Date":"2021-03-12T00:00:00.000",
     "Item":"MACBOOK",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":0.0
   },
   {
@@ -50860,7 +50860,7 @@
   {
     "Date":"2018-01-17T00:00:00.000",
     "Item":"IPHONE 6",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":0.0
   },
   {
@@ -50964,7 +50964,7 @@
   {
     "Date":"2022-02-24T00:00:00.000",
     "Item":"IPHONE XR",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":120.0
   },
   {
@@ -51058,7 +51058,7 @@
   {
     "Date":"2018-04-20T00:00:00.000",
     "Item":"NEXUS",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":0.0
   },
   {
@@ -51104,13 +51104,13 @@
   {
     "Date":"2025-09-25T00:00:00.000",
     "Item":"REFURBISHED IPHONE 12 SIMPLE MOBILE",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":250.0
   },
   {
     "Date":"2021-11-29T00:00:00.000",
     "Item":"HP ENVY LAPTOP",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":0.0
   },
   {
@@ -51125,7 +51125,7 @@
   {
     "Date":"2023-04-26T00:00:00.000",
     "Item":"STEAM DECK",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":0.0
   },
   {
@@ -51180,7 +51180,7 @@
   {
     "Date":"2020-10-16T00:00:00.000",
     "Item":"ONSITE SERVICE 10\/16\/2020",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":100.0
   },
   {
@@ -51204,7 +51204,7 @@
       "ONSITE SERVICE 10\/22\/2021",
       "RECONNECT YANIEZ PC TO VCAT PRINTER"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":100.0
   },
   {
@@ -51289,7 +51289,7 @@
       "MACBOOK AIR \/ CHARGER",
       "MACBOOK AIR"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":280.0
   },
   {
@@ -51391,7 +51391,7 @@
       "CORSAIR GAMING PC (3108)",
       "PROBLEM: SYSTEM CRASH WHILE PLAYING STEAM"
     ],
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":0.0
   },
   {
@@ -51403,7 +51403,7 @@
   {
     "Date":"2020-06-28T00:00:00.000",
     "Item":"IPAD PRO 10.5",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":200.0
   },
   {
@@ -51421,7 +51421,7 @@
   {
     "Date":"2019-06-21T00:00:00.000",
     "Item":"SAMSUNG S8+",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":80.0
   },
   {
@@ -51436,7 +51436,7 @@
   {
     "Date":"2020-10-22T00:00:00.000",
     "Item":"SAMSUNG S10E (BLUE)",
-    "Service":"OTHER",
+    "Service":"UNMAPPED",
     "Price":15.0
   },
   {
